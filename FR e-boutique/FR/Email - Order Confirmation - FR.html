@@ -68,7 +68,7 @@
         Cher {{ custom_data["salutation"] }} {{ customer.last_name }},
         {% endif %}
 
-Nous avons bien reçu votre commande de Cognac LOUIS XIII et nous vous en remercions.{% if engraved_message != blank %} {{engraved_message}}. {% endif %} Votre commande sera préparée en vue de son expédition par notre partenaire logistique et suivie par Rémy-Cointreau UK Distribution Ltd. Vous recevrez très prochainement un message avec de plus amples informations sur votre livraison. <br> <br> Cordialement, <br> <br> LOUIS XIII Cognac <br> Think a Century ahead
+Nous avons bien reçu votre commande de Cognac LOUIS XIII et nous vous en remercions.{% if engraved_message != blank %} {{engraved_message}}. {% endif %} Votre commande sera préparée en vue de son expédition par notre partenaire logistique et suivie par Rémy Cointreau France Distribution. Vous recevrez très prochainement un message avec de plus amples informations sur votre livraison. <br> <br> Cordialement, <br> <br> LOUIS XIII Cognac <br> Think a Century ahead
 {% else %}
  {% if custom_data["salutation"] == 'NA' or custom_data["salutation"] == blank %}
 Cher Membre LOUIS XIII,
@@ -76,7 +76,7 @@ Cher Membre LOUIS XIII,
 Cher {{ custom_data["salutation"] }} {{ customer.last_name }},
 {% endif %}
       <br><br>
-Nous avons bien reçu votre commande de Cognac LOUIS XIII et nous vous en remercions.{% if engraved_message != blank %} {{engraved_message}}. {% endif %}Votre commande sera préparée en vue de son expédition par notre partenaire logistique et suivie par Rémy-Cointreau UK Distribution Ltd. Vous recevrez très prochainement un message avec de plus amples informations sur votre livraison. <br> <br> Cordialement, <br> <br> LOUIS XIII Cognac <br> Think a Century ahead
+Nous avons bien reçu votre commande de Cognac LOUIS XIII et nous vous en remercions.{% if engraved_message != blank %} {{engraved_message}}. {% endif %}Votre commande sera préparée en vue de son expédition par notre partenaire logistique et suivie par Rémy Cointreau France Distribution. Vous recevrez très prochainement un message avec de plus amples informations sur votre livraison. <br> <br> Cordialement, <br> <br> LOUIS XIII Cognac <br> Think a Century ahead
     {% endcase %}
       {% if delivery_instructions != blank  %}
         <p><b>Informations de livraison :</b> {{ delivery_instructions }}</p>
@@ -643,7 +643,7 @@ Nous avons bien reçu votre commande de Cognac LOUIS XIII et nous vous en remerc
           <tr>
             <td>
               
-              <p class="disclaimer__subtext">Pour toute question, n’hésitez pas à nous contacter à l’adresse <a href="mailto:conciergerie.uk@louisxiii-cognac.com" style="color: #999;">conciergerie.uk@louisxiii-cognac.com</a></p>
+              <p class="disclaimer__subtext">Pour toute question, n’hésitez pas à nous contacter à l’adresse <a href="mailto:conciergerie@louisxiii-cognac.com" style="color: #999;">conciergerie@louisxiii-cognac.com</a></p>
             </td>
           </tr>
         </table>
